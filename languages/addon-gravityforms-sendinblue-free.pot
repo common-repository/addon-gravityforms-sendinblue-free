@@ -1,0 +1,216 @@
+# Copyright (C) 2024 WP connect
+# This file is distributed under the same license as the Add-on Brevo for Gravity Forms plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Add-on Brevo for Gravity Forms 2.3.0\n"
+"Report-Msgid-Bugs-To: https://support.wpconnect.co/\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-05-14T08:56:36+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.9.0\n"
+"X-Domain: addon-gravityforms-sendinblue-free\n"
+
+#. Plugin Name of the plugin
+msgid "Add-on Brevo for Gravity Forms"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://wpconnect.co"
+msgstr ""
+
+#. Description of the plugin
+msgid "Create Brevo contacts directly from your Gravity Forms forms."
+msgstr ""
+
+#. Author of the plugin
+msgid "WP connect"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://wpconnect.co/"
+msgstr ""
+
+#: addon-gravityforms-sendinblue-free.php:80
+msgid "The \"Gravity Forms Brevo Add-on\" plugin is inactive because the minimal requirements are not met."
+msgstr ""
+
+#: addon-gravityforms-sendinblue-free.php:153
+msgid "Upgrade to PRO"
+msgstr ""
+
+#: includes/classes/api-sendinblue.php:83
+msgid "The Sendinblue API returned an error"
+msgstr ""
+
+#: includes/classes/gf-addon.php:128
+msgid "Brevo Add-On Settings"
+msgstr ""
+
+#: includes/classes/gf-addon.php:132
+msgid "License Activation"
+msgstr ""
+
+#. translators: %1$s: Sendinblue account API URL
+#: includes/classes/gf-addon.php:138
+msgid "Visit the <a href=\"%1$s\" target=\"_blank\">\"Settings > SMTP & API\"</a> page in your Brevo account to generate an API key."
+msgstr ""
+
+#: includes/classes/gf-addon.php:139
+msgid "Brevo API Key"
+msgstr ""
+
+#: includes/classes/gf-addon.php:201
+msgid "Name"
+msgstr ""
+
+#: includes/classes/gf-addon.php:202
+msgid "List(s)"
+msgstr ""
+
+#: includes/classes/gf-addon.php:203
+msgid "Condition(s)"
+msgstr ""
+
+#. translators: %1$s: Gravity Form Sendinblue settings page URL
+#: includes/classes/gf-addon.php:239
+msgid "Please visit the <a href=\"%1$s\">plugin settings page</a> and enter a valid Sendinblue API key."
+msgstr ""
+
+#: includes/classes/gf-addon.php:246
+msgid "API key missing or invalid"
+msgstr ""
+
+#: includes/classes/gf-addon.php:277
+#: includes/classes/gf-addon.php:405
+msgid "(Pro version)"
+msgstr ""
+
+#: includes/classes/gf-addon.php:291
+msgid "E-mail address"
+msgstr ""
+
+#: includes/classes/gf-addon.php:299
+msgid "Enabled"
+msgstr ""
+
+#: includes/classes/gf-addon.php:304
+msgid "Feed name"
+msgstr ""
+
+#: includes/classes/gf-addon.php:308
+msgid "Enter a feed name to uniquely identify it."
+msgstr ""
+
+#: includes/classes/gf-addon.php:313
+msgid "Fields mapping"
+msgstr ""
+
+#: includes/classes/gf-addon.php:314
+msgid "Add and select the Sendinblue attributes for which to send data, then choose the form fields that match."
+msgstr ""
+
+#: includes/classes/gf-addon.php:318
+msgid "Form fields"
+msgstr ""
+
+#: includes/classes/gf-addon.php:320
+msgid "Brevo attributes"
+msgstr ""
+
+#. translators: %1$s Pro version link
+#: includes/classes/gf-addon.php:332
+msgid "Free version only includes E-mail and Consent fields (\"OPT_IN\" boolean in Brevo), while the %1$s is unlimited."
+msgstr ""
+
+#: includes/classes/gf-addon.php:336
+#: includes/classes/gf-addon.php:388
+msgid "Pro version"
+msgstr ""
+
+#: includes/classes/gf-addon.php:349
+msgid "Add to list"
+msgstr ""
+
+#: includes/classes/gf-addon.php:350
+msgid "All your Brevo lists are displayed below. You can choose which one(s) to save each new contact to."
+msgstr ""
+
+#: includes/classes/gf-addon.php:356
+msgid "None"
+msgstr ""
+
+#. translators: %1$s Pro version link
+#: includes/classes/gf-addon.php:384
+msgid "Free version only allows you to select one list at a time, while the %1$s is unlimited."
+msgstr ""
+
+#: includes/classes/gf-addon.php:400
+msgid "Double opt-in (Pro version)"
+msgstr ""
+
+#: includes/classes/gf-addon.php:405
+msgid "Enable double opt-in"
+msgstr ""
+
+#: includes/classes/gf-addon.php:409
+msgid "By enabling this, Brevo will send a confirmation email to the user before adding them to your list(s)."
+msgstr ""
+
+#: includes/classes/gf-addon.php:417
+msgid "Integration with Brevo"
+msgstr ""
+
+#: includes/classes/gf-addon.php:423
+msgid "Conditional logic"
+msgstr ""
+
+#: includes/classes/gf-addon.php:430
+msgid "Conditions"
+msgstr ""
+
+#: includes/classes/gf-addon.php:431
+msgid "Enable conditional processing"
+msgstr ""
+
+#: includes/classes/gf-addon.php:432
+msgid "Create a contact in Brevo only if"
+msgstr ""
+
+#: includes/hooks.php:72
+msgid "No e-mail address found in form values."
+msgstr ""
+
+#: includes/hooks.php:98
+msgid "Brevo"
+msgstr ""
+
+#: includes/hooks.php:122
+#: includes/hooks.php:193
+msgid "No data."
+msgstr ""
+
+#. translators: %1$d: Feed id
+#: includes/hooks.php:131
+msgid "Feed #%1$d"
+msgstr ""
+
+#. translators: %1$d: Feed entry id
+#: includes/hooks.php:173
+msgid "New contact created (ID #%1$d)."
+msgstr ""
+
+#: includes/hooks.php:178
+msgid "New contact created."
+msgstr ""
+
+#: includes/hooks.php:187
+msgid "Existing contact updated."
+msgstr ""
+
+#: assets/js/admin.js:39
+msgid "Upgrade to Pro version"
+msgstr ""
